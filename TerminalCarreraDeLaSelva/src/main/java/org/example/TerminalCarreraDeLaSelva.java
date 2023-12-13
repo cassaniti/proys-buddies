@@ -74,6 +74,8 @@ class Carrera {
 
 
         while (true) {
+
+
             System.out.println("1. Inscribir participante"); // 2
             System.out.println("2. Mostrar lista de participantes"); // 3
             System.out.println("3. Desinscribir participante por ID"); // 4
@@ -81,34 +83,50 @@ class Carrera {
             System.out.println("5. Salir");
             System.out.print("Seleccione una opción: "); // 1
 
-            int opcion = scanner.nextInt();
-            scanner.nextLine();  // Consumir el salto de línea después del número
+          //  int opcion = scanner.nextInt();
+            String opcion = scanner.nextLine();
 
+            if (validarInt(opcion)) {
+                System.out.println("La opcion es un numero entero.");
 
-            switch (opcion) {
-                case 1:
-                    inscribirParticipante(scanner, participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
-                    break;
-                case 2:
-                    mostrarListaParticipantes(participantes);
-                    break;
-                case 3:
-                    desinscribirParticipantePorId(scanner, participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
-                    break;
-                case 4:
-                    calcularMontosRecaudados(participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
+                switch (opcion) {
+                    case "1":
+                        inscribirParticipante(scanner, participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
+                        break;
+                    case "2":
+                        mostrarListaParticipantes(participantes);
+                        break;
+                    case "3":
+                        desinscribirParticipantePorId(scanner, participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
+                        break;
+                    case "4":
+                        calcularMontosRecaudados(participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
 
-                    break;
+                        break;
 
-                case 5:
-                    System.out.println("Saliendo del programa...");
-                    scanner.close();
-                    System.exit(0);
+                    case "5":
+                        System.out.println("Saliendo del programa...");
+                        scanner.close();
+                        System.exit(0);
 
-                default:
-                    System.out.println("Opción no válida. Inténtelo de nuevo.");
-                    break;
+                    default:
+                        System.out.println("Opción no válida. Inténtelo de nuevo.");
+                        break;
+                }
+
             }
+
+            else if(!validarInt(opcion)){
+
+                System.out.println("Entrada no válida. Ingrese un número entero válido.");
+
+            }
+
+
+              scanner.nextLine();  // Consumir el salto de línea después del número
+
+
+
         }
     }
 
@@ -296,7 +314,15 @@ class Carrera {
     }
 
 
-
+    public static boolean validarInt(String cadena) {
+        try {
+            // Intentar convertir la cadena a un número entero
+            int numero = Integer.parseInt(cadena);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
 
 
 }

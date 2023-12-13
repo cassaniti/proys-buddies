@@ -1,46 +1,46 @@
 
 D
-java:S2189L""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ö´ÔÅ1
-]	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(Ç™‚Å8ö´ÔÅ1
-G	java:S106M"+Replace this use of System.out by a logger.(¾ï¼æ8¯ö´ÔÅ1
-G	java:S106N"+Replace this use of System.out by a logger.(èÜ‡Ë8°ö´ÔÅ1
-L	java:S106O"+Replace this use of System.out by a logger.(İñ®­ÿÿÿÿÿ8²ö´ÔÅ1
-L	java:S106P"+Replace this use of System.out by a logger.(•ä¶Åúÿÿÿÿ8²ö´ÔÅ1
-L	java:S106Q"+Replace this use of System.out by a logger.(¾€¹úÿÿÿÿ8²ö´ÔÅ1
-L	java:S106R"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8²ö´ÔÅ1
-m	java:S128g"LEnd this switch case with an unconditional break, return or throw statement.(ÌÊëÎüÿÿÿÿ8´ö´ÔÅ1
-L	java:S106h"+Replace this use of System.out by a logger.(¬õÇßüÿÿÿÿ8¶ö´ÔÅ1
-L	java:S106m"+Replace this use of System.out by a logger.(Ôé¸Çúÿÿÿÿ8·ö´ÔÅ1
-L	java:S106x"+Replace this use of System.out by a logger.(Ç¼¾íşÿÿÿÿ8¸ö´ÔÅ1
-L	java:S106z"+Replace this use of System.out by a logger.(ıØà–üÿÿÿÿ8¸ö´ÔÅ1
-G	java:S106|"+Replace this use of System.out by a logger.(ñÒàÖ8¸ö´ÔÅ1
-G	java:S106~"+Replace this use of System.out by a logger.(„ØŒÛ8¸ö´ÔÅ1
-M	java:S106€"+Replace this use of System.out by a logger.(£Ü´ƒûÿÿÿÿ8¸ö´ÔÅ1
-H	java:S106‚"+Replace this use of System.out by a logger.(Ÿ˜¢î8¸ö´ÔÅ1
-M	java:S106…"+Replace this use of System.out by a logger.(¤‚â¹ÿÿÿÿÿ8¹ö´ÔÅ1
-M	java:S106ˆ"+Replace this use of System.out by a logger.(íçòåùÿÿÿÿ8¹ö´ÔÅ1
-M	java:S106‰"+Replace this use of System.out by a logger.(¿´Ñ»şÿÿÿÿ8¹ö´ÔÅ1
-M	java:S106Š"+Replace this use of System.out by a logger.(½ïşçÿÿÿÿÿ8¹ö´ÔÅ1
-M	java:S106‹"+Replace this use of System.out by a logger.(šŠ¿Ğÿÿÿÿÿ8¹ö´ÔÅ1
-M	java:S106Œ"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8¼ö´ÔÅ1
-H	java:S106¤"+Replace this use of System.out by a logger.(Ú çİ8¼ö´ÔÅ1
-H	java:S106©"+Replace this use of System.out by a logger.(ò¦ğÓ8¼ö´ÔÅ1
->	java:S131¶""Add a default case to this switch.(ÊÜşA8¼ö´ÔÅ1
-M	java:S106Â"+Replace this use of System.out by a logger.(ü…Æ›ÿÿÿÿÿ8¼ö´ÔÅ1
-M	java:S106Ã"+Replace this use of System.out by a logger.(Âğ¾‰úÿÿÿÿ8½ö´ÔÅ1
-M	java:S106Ë"+Replace this use of System.out by a logger.(™§‚ßüÿÿÿÿ8½ö´ÔÅ1
-M	java:S106Í"+Replace this use of System.out by a logger.(Âğ¾‰úÿÿÿÿ8¾ö´ÔÅ1
-G	java:S106Ô"+Replace this use of System.out by a logger.(£Ó¹L8Àö´ÔÅ1
-M	java:S106ä"+Replace this use of System.out by a logger.(µ‰ıÚûÿÿÿÿ8Àö´ÔÅ1
-M	java:S106å"+Replace this use of System.out by a logger.(®›ô˜úÿÿÿÿ8Àö´ÔÅ1
->	java:S131í""Add a default case to this switch.(ÊÜşA8Àö´ÔÅ1
-H	java:S106û"+Replace this use of System.out by a logger.(íÊé¦8Ãö´ÔÅ1
+java:S2189L""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8¡Û‚óÅ1
+]	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(Ç™‚Å8­Û‚óÅ1
+G	java:S106M"+Replace this use of System.out by a logger.(¾ï¼æ8İÛ‚óÅ1
+G	java:S106N"+Replace this use of System.out by a logger.(èÜ‡Ë8ŞÛ‚óÅ1
+L	java:S106O"+Replace this use of System.out by a logger.(İñ®­ÿÿÿÿÿ8ŞÛ‚óÅ1
+L	java:S106P"+Replace this use of System.out by a logger.(•ä¶Åúÿÿÿÿ8ßÛ‚óÅ1
+L	java:S106Q"+Replace this use of System.out by a logger.(¾€¹úÿÿÿÿ8ßÛ‚óÅ1
+L	java:S106R"+Replace this use of System.out by a logger.(îæ•²ûÿÿÿÿ8ßÛ‚óÅ1
+m	java:S128g"LEnd this switch case with an unconditional break, return or throw statement.(ÌÊëÎüÿÿÿÿ8àÛ‚óÅ1
+L	java:S106h"+Replace this use of System.out by a logger.(¬õÇßüÿÿÿÿ8ãÛ‚óÅ1
+L	java:S106m"+Replace this use of System.out by a logger.(Ôé¸Çúÿÿÿÿ8ãÛ‚óÅ1
+L	java:S106x"+Replace this use of System.out by a logger.(Ç¼¾íşÿÿÿÿ8æÛ‚óÅ1
+L	java:S106z"+Replace this use of System.out by a logger.(ıØà–üÿÿÿÿ8æÛ‚óÅ1
+G	java:S106|"+Replace this use of System.out by a logger.(ñÒàÖ8æÛ‚óÅ1
+G	java:S106~"+Replace this use of System.out by a logger.(„ØŒÛ8çÛ‚óÅ1
+M	java:S106€"+Replace this use of System.out by a logger.(£Ü´ƒûÿÿÿÿ8çÛ‚óÅ1
+H	java:S106‚"+Replace this use of System.out by a logger.(Ÿ˜¢î8çÛ‚óÅ1
+M	java:S106…"+Replace this use of System.out by a logger.(¤‚â¹ÿÿÿÿÿ8ëÛ‚óÅ1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(íçòåùÿÿÿÿ8ëÛ‚óÅ1
+M	java:S106‰"+Replace this use of System.out by a logger.(¿´Ñ»şÿÿÿÿ8ëÛ‚óÅ1
+M	java:S106Š"+Replace this use of System.out by a logger.(½ïşçÿÿÿÿÿ8ëÛ‚óÅ1
+M	java:S106‹"+Replace this use of System.out by a logger.(šŠ¿Ğÿÿÿÿÿ8ìÛ‚óÅ1
+M	java:S106Œ"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8ìÛ‚óÅ1
+H	java:S106¤"+Replace this use of System.out by a logger.(Ú çİ8íÛ‚óÅ1
+H	java:S106©"+Replace this use of System.out by a logger.(ò¦ğÓ8íÛ‚óÅ1
+>	java:S131¶""Add a default case to this switch.(ÊÜşA8ïÛ‚óÅ1
+M	java:S106Â"+Replace this use of System.out by a logger.(ü…Æ›ÿÿÿÿÿ8ğÛ‚óÅ1
+M	java:S106Ã"+Replace this use of System.out by a logger.(Âğ¾‰úÿÿÿÿ8ğÛ‚óÅ1
+M	java:S106Ë"+Replace this use of System.out by a logger.(™§‚ßüÿÿÿÿ8ñÛ‚óÅ1
+M	java:S106Í"+Replace this use of System.out by a logger.(Âğ¾‰úÿÿÿÿ8ñÛ‚óÅ1
+G	java:S106Ô"+Replace this use of System.out by a logger.(£Ó¹L8òÛ‚óÅ1
+M	java:S106ä"+Replace this use of System.out by a logger.(µ‰ıÚûÿÿÿÿ8ôÛ‚óÅ1
+M	java:S106å"+Replace this use of System.out by a logger.(®›ô˜úÿÿÿÿ8ôÛ‚óÅ1
+>	java:S131í""Add a default case to this switch.(ÊÜşA8öÛ‚óÅ1
+H	java:S106û"+Replace this use of System.out by a logger.(íÊé¦8÷Û‚óÅ1
 W
-java:S1172 "4Remove this unused method parameter "participantes".(¾°ñîøÿÿÿÿ8Ãö´ÔÅ1
-H	java:S106¡"+Replace this use of System.out by a logger.(ÇóûÊ8Ãö´ÔÅ1
-H	java:S106¢"+Replace this use of System.out by a logger.(Ìî¸«8Ãö´ÔÅ1
-M	java:S106£"+Replace this use of System.out by a logger.(Ùåı˜ÿÿÿÿÿ8Ãö´ÔÅ1
-G	java:S106¤"+Replace this use of System.out by a logger.(³×¼68Äö´ÔÅ1
-M	java:S106§"+Replace this use of System.out by a logger.(ÀÌÊ›şÿÿÿÿ8€¾¹ÔÅ1
+java:S1172 "4Remove this unused method parameter "participantes".(¾°ñîøÿÿÿÿ8ûÛ‚óÅ1
+H	java:S106¡"+Replace this use of System.out by a logger.(ÇóûÊ8ûÛ‚óÅ1
+H	java:S106¢"+Replace this use of System.out by a logger.(Ìî¸«8üÛ‚óÅ1
+M	java:S106£"+Replace this use of System.out by a logger.(Ùåı˜ÿÿÿÿÿ8üÛ‚óÅ1
+G	java:S106¤"+Replace this use of System.out by a logger.(³×¼68üÛ‚óÅ1
+M	java:S106§"+Replace this use of System.out by a logger.(ÀÌÊ›şÿÿÿÿ8ıÛ‚óÅ1
 O
-java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ö¡»ÔÅ1
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8‹¼°ıÅ1
