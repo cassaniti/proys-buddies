@@ -5,60 +5,9 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-class Participante {
-    int id;
 
-    String dni;
-    String nombre;
-    String apellido;
 
-    String celular;
-    String numeroEmergencia;
-    String grupoSanguineo;
-    String categoria;
-    double costoInscripcion;
-    int edad;
 
-    private static int proximoId = 1;
-
-    public Participante(String dni, String nombre, String apellido, String celular, String numeroEmergencia, String grupoSanguineo, String categoria, double costoInscripcion, int edad) {
-        this.id = proximoId++;
-        this.dni = dni;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.celular = celular;
-        this.numeroEmergencia = numeroEmergencia;
-        this.grupoSanguineo = grupoSanguineo;
-        this.categoria = categoria;
-        this.costoInscripcion = costoInscripcion;
-        this.edad = edad;
-    }
-
-    @Override
-    public String toString() {
-        return "ID: " + id +", DNI: " + dni +  ", Nombre: " + nombre + ", Apellido: " + apellido + ", Celular: " + celular + ", NumEmergencia: " + numeroEmergencia + ", GrupoSanguineo: " + grupoSanguineo + ", Edad: " + edad + ", Categoría: " + categoria + ", Costo de inscripción: " + costoInscripcion;
-    }
-}
-
-class MontoRecaudado {
-    double monto;
-
-    public MontoRecaudado(double monto) {
-        this.monto = monto;
-    }
-
-    public double getMonto() {
-        return monto;
-    }
-
-    public void sumarMonto(double cantidad) {
-        monto += cantidad;
-    }
-
-    public void restarMonto(double cantidad) {
-        monto -= cantidad;
-    }
-}
 
 
 class Carrera {
@@ -101,7 +50,6 @@ class Carrera {
                         break;
                     case "4":
                         calcularMontosRecaudados(participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
-
                         break;
 
                     case "5":
@@ -119,11 +67,11 @@ class Carrera {
             else if(!validarInt(opcion)){
 
                 System.out.println("Entrada no válida. Ingrese un número entero válido.");
-
             }
 
 
-              scanner.nextLine();  // Consumir el salto de línea después del número
+            scanner.nextLine();  // Consumir el salto de línea después del número
+
 
 
 
