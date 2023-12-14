@@ -20,9 +20,10 @@ class Carrera {
         MontoRecaudado recaudadoGrande = new MontoRecaudado(0);
 
 
+boolean programaIniciado = false;
 
 
-        while (true) {
+        while (!programaIniciado) {
 
 
             System.out.println("1. Inscribir participante"); // 2
@@ -41,12 +42,14 @@ class Carrera {
                 switch (opcion) {
                     case "1":
                         inscribirParticipante(scanner, participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
+                        scanner.nextLine();
                         break;
                     case "2":
                         mostrarListaParticipantes(participantes);
                         break;
                     case "3":
                         desinscribirParticipantePorId(scanner, participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
+                        scanner.nextLine();
                         break;
                     case "4":
                         calcularMontosRecaudados(participantes, recaudadoChico, recaudadoMediano, recaudadoGrande);
@@ -61,6 +64,23 @@ class Carrera {
                         System.out.println("Opción no válida. Inténtelo de nuevo.");
                         break;
                 }
+
+                if (!programaIniciado) {
+                    // Preguntar si desea realizar otra operación
+                    System.out.print("¿Desea realizar otra operación? (y/n): ");
+                    String respuesta = scanner.nextLine().toLowerCase();
+
+
+
+                    if (!respuesta.equals("y")) {
+                        programaIniciado = true;
+                        System.out.println("Saliendo del programa...");
+                        scanner.close();
+                        System.exit(0);
+                    }
+
+             
+              }
 
             }
 
